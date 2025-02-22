@@ -1,6 +1,7 @@
+from selenium.webdriver.common.by import By
+from selenium import webdriver
+
 def search_elements():
-    from selenium.webdriver.common.by import By
-    from selenium import webdriver
 
     driver = webdriver.Chrome()
     driver.get("https://www.saucedemo.com")
